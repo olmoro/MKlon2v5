@@ -1,0 +1,55 @@
+.LOG
+
+
+20:27 12.11.2022
+Новый проект Klon с клавиатурой на резисторах
+Отменена емкостная клавиатура
+Не тестировалось
+RAM:   [=         ]  13.1% (used 42944 bytes from 327680 bytes)
+Flash: [==        ]  16.1% (used 1053178 bytes from 6553600 bytes)
+
+06:25 14.11.2022
+VS, PIO new
+F:\2022\Pio\Klon2
+Espressif 32 3.5.0 - OK
+Espressif 32 4.4.0 - error: 'vTaskEnterCritical'
+DS18B20 резервируется
+
+Проект MKlon2
+Espressif 32 3.5.0
+RAM:   [=         ]  13.1% (used 42944 bytes from 327680 bytes)
+Flash: [==        ]  16.1% (used 1052898 bytes from 6553600 bytes)
+
+20:12 15.11.2022
+Публичные библиотеки, актуальные версии для  
+  lib_deps =
+  hieromon/AutoConnect@^1.3.7
+  hieromon/PageBuilder@^1.5.3
+
+vTaskEnterCritical заменен на vPortEnterCritical  (main, dallas) - не проверено
+  Espressif 32    5.2.0   - OK
+Dallas можно вернуть
+RAM:   [=         ]  13.3% (used 43512 bytes from 327680 bytes)
+Flash: [==        ]  17.5% (used 1147973 bytes from 6553600 bytes)
+
+08:20 30.11.2022
+Ошибка в топологии платы mklon2v5: IO19 освободить для MISO, RES дисплеев соединить с EN.
+
+Определена директория для локальных библиотек
+lib_extra_dirs = E:\Projects\ESP32\ESP32Lib   - OK
+Перенесены ArduinoJson_ID64, AutoConnect, AutoPID_ID1925, PageBuilder_ID2010, TFT_eSPI. - OK
+Библиотека дисплея TFT_eSPI используется в нескольких проектах со своими настройками, для 
+этого в SP32Lib открыта директория TFT_eSPI_Setups с пользовательскими файлами xxxx_setup.h. 
+После обновления библиотеки  в ней необходимо отредактировать файл User_Setup_Select.h, чтобы он 
+указывал на ваш пользовательский установочный файл, например:
+  #include <../TFT_eSPI_Setups/mklon25_setup.h>
+Важно: вызывается только один установочный файл.
+... заменить ссылку на строку Setup.h в User_Setup_Select.h на:
+  #include <../TFT_eSPI_Setups/mklon25_setup.h>
+и этот файл не будет перезаписан во время обновления.
+Рекомендуется создать ярлык на User_Setup_Select.h
+
+TFT_eSPI 2.3.59 обновлена до версии 2.4.79  (04.11.2022)    - OK
+
+10:00 02.12.2022
+Изменилась директория проекта E:\Projects\ESP32\MKlon2v5
