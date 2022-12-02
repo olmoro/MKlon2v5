@@ -100,7 +100,7 @@ Driver IC:ST7735S поддерживается многими библиотек
 ### <p align="center">Клавиатура<a name="button"></a>
 Для схемы с делителем напряжения и аналоговым входом применена библиотека ... точнее [публикация](http://samopal.pro/arduino-button-2/). Возможности вполне устраивают: различаются короткие и длинные нажатия, автоповтор. Тайминги задаются по каждой кнопке свои.
 ### <p align="center">Пид-регулятор<a name="pid"></a>
-Пид-регулятор, реализованный в DRV, [FastPID](https://github.com/mike-matera/FastPID/tree/master/examples/VoltageRegulator). Данные передаются целочисленными и предвычисленными.  
+Пид-регулятор, реализованный в DRV, [FastPID](https://github.com/mike-matera/FastPID/tree/master/examples/VoltageRegulator). Данные передаются целочисленными и предвычисленными. Подбор [коэффициентов](https://github.com/olmoro/MKlon2v5/blob/main/Documents/Img/)PID_Compensation_Animated.gif
 ### <p align="center">Сеть<a name="connect"></a>
 На этапе разработки и отладки применен пакет [AutoConnect](https://github.com/Hieromon/AutoConnect) Заимствован "как есть", добавлен график тока и напряжения с автоматическим выбором диапазонов. 
 ### <p align="center">Протокол обмена<a name="wake"></a>
