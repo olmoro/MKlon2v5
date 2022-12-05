@@ -1,6 +1,6 @@
 # <p align="center"> MKlon2v5
-# <p align="center">Модульное зарядное устройство на ESP-WROOM-32D - проект Arduino.
-
+# <p align="center">Реализация конечного автомата в проекте зарядного устройства.
+## <p align="center">Модульное зарядное устройство на ESP-WROOM-32D - проект Arduino.
 ![](https://github.com/olmoro/Mklon2v5/blob/main/Documents/Img/Mklon2v5.jpg) Версия 5, базовая.
 1. [Как это работает](#mklon)
 2. [Аппаратный аспект](#hardware)
