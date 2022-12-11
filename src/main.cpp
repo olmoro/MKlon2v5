@@ -1,11 +1,11 @@
 /*
   project:      MESP32v7 -> Mklon -> MKlon2
   pcb:          mesp_v7.1         -> mklon2v5
-  pcb:          mcdm.v7.3
+  pcb:          mcdm.v7.3         -> mklon2v5
   display:      1.8 дюймовый TFT ЖК-дисплей 128*160 полноцветный экран IPS. Driver IC: ST7735
   driver:       ATSAMD21 M0 MINI
   date:         2022 ноябрь
-  VS:           1.73.1
+  VS:           1.73.1            -> 1.74.0
   //Espressif 32: 3.5.0 (с 4.0 не совместимо)
   Espressif 32: 5.2.0 - проверить
 */
