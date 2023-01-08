@@ -2,13 +2,15 @@
 # <p align="center">Реализация конечного автомата в проекте зарядного устройства.
 ## <p align="center">Модульное зарядное устройство на ESP-WROOM-32D - проект Arduino.
 #### <p align="right">редакция от 8 января 2023 года
-- добавлено: 1-WIRE сеть
+#### <p align="right">- добавлено: 1-WIRE сеть
 
-Так было задумано
+Так было задумано:
 ![](https://github.com/olmoro/MKlon2v5/blob/main/Documents/Img/MKlon2v5a.jpg)
-Реализовано на 8 января 2023 года
+
+Реализовано на 8 января 2023 года:
 ![](https://github.com/olmoro/MKlon2v5/blob/main/Documents/Img/Mklon2v5_20230106.png)
-Контрольная сборка (в ожидании посылок с Ali)
+
+Контрольная сборка (в ожидании посылок с Ali):
 ![](https://github.com/olmoro/MKlon2v5/blob/main/Documents/Img/IMG_20230107_192711.png)
 
 
